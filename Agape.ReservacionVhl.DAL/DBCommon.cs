@@ -13,25 +13,9 @@ namespace Agape.ReservacionVhl.DAL
 {
     public class DBCommon:DbContext
     {
-        //Codigo Hecho por Cesar Garcia
-
-        //Cadena de conexion donde se ubica el gestor de base de datos
-
-        //Cadena de conexion Ricardo
-        //   const string StrConexion = @"Data Source=P\SQLEXPRESS;Initial Catalog=Agape.ReservacionVhl;Integrated Security=True";
-        //const string StrConexion = @"Data Source=.;Initial Catalog=Agape.ReservacionVhlV2;Integrated Security=True";
-
-
-        //Cadena de conexion Moises
-        //const string StrConexion = @"Data Source=192.168.10.14,1433; Initial catalog=CRVA-DB; user id=crva;password=Rosa9477;";
-        //const string StrConexion = @"Data Source=Escobar\MSSQL2017EB;Initial Catalog=CRVA;Integrated Security=True";
-        const string StrConexion = @"Data Source=Escobar\MSSQL2017EB; Initial catalog=CRVA-DB; user id=moises;password=crva@1234;";
-
-        //Cadena de conexion Cesar
-        //const string StrConexion = @"Data Source=.;Initial Catalog=DBAGAPE;Integrated Security=True";
 
         //Cadena de conexion Roberto
-        //const string StrConexion = @"Data Source=.;Initial Catalog=CRVA-DB;Integrated Security=True";
+        const string StrConexion = @"Data Source=.;Initial Catalog=@;Integrated Security=True";
 
 
         //aqui se hereda la base de contexto para crear un metodo que usara para navegar en la base de datos
